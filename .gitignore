@@ -9,3 +9,12 @@ cdk.out
 
 # Parcel default cache directory
 .parcel-cache
+
+# Python envs
+python_modules
+.venv
+.idea
+
+# Env files
+env\.sh
+.env

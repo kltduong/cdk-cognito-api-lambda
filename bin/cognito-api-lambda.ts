@@ -4,4 +4,4 @@ import * as cdk from '@aws-cdk/core';
 import { CognitoApiLambdaStack } from '../lib/cognito-api-lambda-stack';
 
 const app = new cdk.App();
-new CognitoApiLambdaStack(app, 'CognitoApiLambdaStack');
+new CognitoApiLambdaStack(app, 'CognitoApiLambdaStack', { env: {region: "ap-southeast-1"}});
